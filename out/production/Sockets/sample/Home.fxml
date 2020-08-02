@@ -27,7 +27,7 @@
                 <Font size="20.0" />
             </font>
         </JFXButton>
-        <JFXButton buttonType="RAISED" layoutX="220.0" layoutY="332.0" onAction="#showAvailablePort" prefHeight="44.0" prefWidth="195.0" ripplerFill="#0fd98d" style="-fx-background-color: #000000;" text="Display port" textFill="WHITE">
+        <JFXButton buttonType="RAISED" layoutX="220.0" layoutY="332.0" onAction="#showAvailablePort" prefHeight="44.0" prefWidth="195.0" ripplerFill="#171717" style="-fx-background-color: #000000;" text="Display port" textFill="WHITE">
             <font>
                 <Font name="Corbel Bold" size="15.0" />
             </font>

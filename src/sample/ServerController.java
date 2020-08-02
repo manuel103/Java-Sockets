@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class MyServer implements Initializable {
+public class ServerController implements Initializable {
 
     @FXML
     public JFXTextField portNumberField;

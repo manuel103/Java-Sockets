@@ -3,7 +3,7 @@ package sample.Server;
 import sample.Model.Messages;
 import sample.Model.Communicator;
 import sample.Model.ToyMerchant;
-import sample.MyServer;
+import sample.ServerController;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -19,11 +19,11 @@ public class Server {
     private OutputStream outputStream;
     private ObjectOutputStream objectOutputStream;
     private Communicator communicator;
-    private MyServer serverController;
+    private ServerController serverController;
 
-    public Server(int port, MyServer myServer) {
+    public Server(int port, ServerController serverController) {
         serverPort = port;
-        serverController = myServer;
+        this.serverController = serverController;
     }
 
     public void startServer() {

@@ -1,6 +1,5 @@
 package sample;
 
-import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -21,7 +20,7 @@ public class Controller {
     public void openServerWindow(){
         Parent root;
         try {
-            root = FXMLLoader.load(getClass().getResource("MyServer.fxml"));
+            root = FXMLLoader.load(getClass().getResource("ServerController.fxml"));
             Stage stage = new Stage();
             stage.setTitle("Server");
             stage.setScene(new Scene(root,650,500));
@@ -38,7 +37,7 @@ public class Controller {
     private void openClientWindow(){
         Parent root;
         try {
-            root = FXMLLoader.load(getClass().getResource("MyClient.fxml"));
+            root = FXMLLoader.load(getClass().getResource("ClientController.fxml"));
             Stage stage = new Stage();
             stage.setTitle("Client");
             stage.setScene(new Scene(root,700,450));

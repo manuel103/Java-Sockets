@@ -30,7 +30,7 @@
             <Font size="14.0" />
          </font>
       </JFXButton>
-      <JFXTextArea fx:id="messageBoard" editable="false" layoutX="46.0" layoutY="263.0" prefHeight="188.0" prefWidth="556.0" promptText="Communication History" style="-fx-background-color: #ffffff; -fx-padding: 8.0; -fx-background-image: url(https://i.pinimg.com/originals/79/5c/ab/795cabc4647f73b365e2e6eabd0f34dc.png);" wrapText="true">
+      <JFXTextArea fx:id="messageBoard" editable="false" layoutX="46.0" layoutY="263.0" prefHeight="188.0" prefWidth="556.0" promptText="Communication History" style="-fx-background-color: #ffffff; -fx-padding: 8.0;" wrapText="true">
          <font>
             <Font name="Book Antiqua" size="16.0" />
          </font></JFXTextArea>
